@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="New Hire" max_length="40" name="x_284759_human_res_new_hire" sizeclass="2" type="collection">
+        <element label="Additional Person to Send Notification to" max_length="32" name="additional_person_to_send_notification_to" reference="sys_user" type="reference"/>
+        <element label="Credentials Information" max_length="4000" name="credentials_information" type="string"/>
+        <element label="Employee Alternate Email" max_length="100" name="employee_email" type="string"/>
+        <element label="Employee Name" mandatory="true" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element label="End of Employment Date" max_length="40" name="end_of_employment_date" type="glide_date"/>
+        <element label="Hiring Manager" mandatory="true" max_length="32" name="hiring_manager" reference="sys_user" reference_qual="department!=^EQ" reference_qual_condition="department!=^EQ" type="reference"/>
+        <element label="New Hire Orientation Date" mandatory="true" max_length="40" name="new_hire_orientation_date" type="glide_date"/>
+        <element label="Reports to Manager" mandatory="true" max_length="32" name="reports_to_manager" reference="sys_user" type="reference"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+    </element>
+</database>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_284759_human_res_new_hire</collection>
+        <condition table="x_284759_human_res_new_hire">state=1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: #0070c0;">Greetings</span><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif;">&nbsp;${employee_name},&nbsp;<br /></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: red;">Note this is an automated communication being sent by Clayton State University Human Resources</span></strong><span style="font-family: 'Arial',sans-serif;">. <strong>For specific information concerning your Department, please contact your Hiring Manager. </strong></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">Congratulations on joining the Clayton State University Community!&nbsp; Please read this email carefully, there is a lot of information within and items that may require your action. </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Your Start Date</span></strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">: </span><span style="font-family: 'Arial',sans-serif;">Please contact your Hiring Manager for specific information</span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Your Department</span></strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">: <span style="color: #000000;">${employee_name.department}</span><br /> </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Your Hiring Manager/Reports to Manager</span></strong><span style="font-family: 'Arial',sans-serif;">: ${hiring_manager} /&nbsp; ${reports_to_manager}<br /><br /></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Your New Hire Orientation Date</span></strong><span style="font-family: 'Arial',sans-serif;">: ${new_hire_orientation_date}<br />&nbsp; </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Your Employee Credentials, if applicable</span></strong><span style="font-family: 'Arial',sans-serif;">: Please contact your Hiring Manager for this information. Once you obtain this information you can activate your credentials <a title="here" href="https://account.clayton.edu/activate/identify" target="_blank">here</a>. Activating your credentials will allow access to your Clayton.edu email, your network access. </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Multi-Factor Authentication</span></strong><span style="font-family: 'Arial',sans-serif;">: CSU uses multi-factor authentication which <span style="color: #222222;">is a method of confirming your identity. Please activate your MFA <a title="here" href="https://auth.clayton.edu/login?service=https://apps.clayton.edu/directory/casHandler" target="_blank">here</a>.&nbsp;&nbsp;</span></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">OneUSG Connect</span></strong><span style="font-family: 'Arial',sans-serif;">: Clayton State University utilizes OneUSG Connect which is our web based Employee Self Service (ESS) system.&nbsp; You will have access to OneUSG Connect through the Single Sign-On Self Service URL to submit time, complete absence requests, view documents, update information, etc. by clicking <a title="here" href="https://oneusgconnect.usg.edu/" target="_blank">here</a>.</span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Required Training</span></strong><span style="font-family: 'Arial',sans-serif;">: Also you will need to take and complete <strong>ALL</strong> necessary required trainings within 3-5 days of employment. More information can be accessed <a title="here" href="http://www.clayton.edu/human-resources/New-Hire-Orientation" target="_blank">here</a>.</span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;"><strong style="font-family: Calibri, sans-serif; font-size: 14.6667px;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Employee Handbooks</span></strong>: Click <a title="here" href="http://www.clayton.edu/human-resources/Handbooks" target="_blank">here</a> to access all employee handbooks.&nbsp;</span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;"><strong style="font-family: Calibri, sans-serif; font-size: 14.6667px;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Centralized Payroll Schedule</span></strong>: Click <a title="here" href="http://www.clayton.edu/payroll/Payroll-Schedule" target="_blank">here</a> to access the payroll calendar.&nbsp;</span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">Again, welcome to Clayton State University. Please feel free to contact your Hiring Manager/Reports to Manager or HR with any questions. </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">Thank you,&nbsp;&nbsp; </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">Human Resources</span></p>
+<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif;">o: 678.466.4230 | f: 678.466.4239 </span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Hire Notification to New Employee</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>hiring_manager,additional_person_to_send_notification_to</recipient_fields>
+        <recipient_groups name="Human Resources">8c644b91db822300d1db5608689619c8</recipient_groups>
+        <recipient_users>EmploymentServices@clayton.edu</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Welcome to CSU ${employee_name}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 18:58:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6516e7d5dbc22300d1db5608689619e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>New Hire Notification to New Employee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources" source="x_284759_human_res">aa1996d1db022300d1db560868961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources">aa1996d1db022300d1db560868961904</sys_scope>
+        <sys_update_name>sysevent_email_action_6516e7d5dbc22300d1db5608689619e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 12:56:22</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

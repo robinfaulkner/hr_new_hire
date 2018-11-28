@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="new_hire_orientation_date" label="New Hire Orientation Date" language="en" table="x_284759_human_res_new_hire">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>new_hire_orientation_date</element>
+            <help/>
+            <hint/>
+            <label>New Hire Orientation Date</label>
+            <language>en</language>
+            <name>x_284759_human_res_new_hire</name>
+            <plural>New Hire Orientation Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-27 14:09:33</sys_created_on>
+            <sys_id>f8582651db422300d1db5608689619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Hire Orientation Date</sys_name>
+            <sys_package display_value="Human Resources" source="x_284759_human_res">aa1996d1db022300d1db560868961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources">aa1996d1db022300d1db560868961904</sys_scope>
+            <sys_update_name>sys_documentation_x_284759_human_res_new_hire_new_hire_orientation_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-27 14:09:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

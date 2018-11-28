@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="additional_person_to_send_notification_to" label="Additional Person to Send Notification to" language="en" table="x_284759_human_res_new_hire">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>additional_person_to_send_notification_to</element>
+            <help/>
+            <hint/>
+            <label>Additional Person to Send Notification to</label>
+            <language>en</language>
+            <name>x_284759_human_res_new_hire</name>
+            <plural>Additional Person to Send Notification to</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-27 18:17:37</sys_created_on>
+            <sys_id>e61167d1dbc22300d1db560868961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Additional Person to Send Notification to</sys_name>
+            <sys_package display_value="Human Resources" source="x_284759_human_res">aa1996d1db022300d1db560868961904</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resources">aa1996d1db022300d1db560868961904</sys_scope>
+            <sys_update_name>sys_documentation_x_284759_human_res_new_hire_additional_person_to_send_notification_to_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-27 18:17:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

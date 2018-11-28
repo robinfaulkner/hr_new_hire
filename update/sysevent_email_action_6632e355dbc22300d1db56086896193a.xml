@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_284759_human_res_new_hire</collection>
+        <condition table="x_284759_human_res_new_hire">state=1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: #0070c0;">Greetings&nbsp;Hiring Manager: ${hiring_manager},<br /></span></p>
+<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: #0070c0;"> <strong><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif; color: red;">Note this is an automated communication being sent by Human Resources</span></strong><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif;">. </span> </span></p>
+<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif;">Congratulations, on the successful addition of your new talent! The below referenced individual has been processed in our Human Capital Management, HCM, system.&nbsp; Please assist your new member with familiarizing themselves with your specific department, their role, and Clayton State University.</span></p>
+<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif;">Please review the &ldquo;New Hire Notice to Managers&rdquo; linked <a title="here" href="http://www.clayton.edu/Portals/24/docs/New%20Hire%20Notice%20to%20Managers%202018.pdf?ver=2018-07-24-131546-980" target="_blank">here</a>.&nbsp; </span></p>
+<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif;"><strong>This notice contains important action items for the manager/supervisor to perform as well as important information the manager/supervisor must convey to the newly added staff, faculty, non-paid affiliate and/or volunteer.</strong> </span></p>
+<p><span style="font-size: 11.0pt; line-height: 107%; font-family: 'Arial',sans-serif;"><strong> Please also find below your new member&rsquo;s approved effective start date, their new hire orientation date, and the reports to manager. If applicable, below also lists the needed information that you must provide to your new member in order for them to register for CSU credentials.&nbsp; Understand the credentials information below is private and confidential and should only be shared with the new employee in person, through a CSU secured communication method or via Clayton.edu email only. <span style="text-decoration: underline;">ONLY the employee should attempt to activate/manipulate their own credentials. </span></strong></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Newly Hired Employee</span><span style="font-family: 'Arial',sans-serif;">:&nbsp; ${employee_name}<br /> </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Effective Start Date</span><span style="font-family: 'Arial',sans-serif;">: ${start_date}<br /></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">End of Employment Date, If Applicable</span><span style="font-family: 'Arial',sans-serif;">: ${end_of_employment_date}<br /></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">New Hire Orientation Date</span><span style="font-family: 'Arial',sans-serif;">: ${new_hire_orientation_date}<br /></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Reports to Manager</span><span style="font-family: 'Arial',sans-serif;">:&nbsp; ${reports_to_manager}<br /></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">&nbsp;</span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif; color: #0070c0;">Credentials Information</span><span style="font-family: 'Arial',sans-serif;">: ${credentials_information}<br /></span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">Again congratulations and please contact HR in the event you have further questions. </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">Thank you,&nbsp;&nbsp; </span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">Human Resources</span></p>
+<p style="margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'Arial',sans-serif;">o: 678.466.4230 | f: 678.466.4239 </span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>New Hire Notification to Manager</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>hiring_manager,additional_person_to_send_notification_to</recipient_fields>
+        <recipient_groups name="Human Resources">8c644b91db822300d1db5608689619c8</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New Hire: ${employee_name}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 18:39:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6632e355dbc22300d1db56086896193a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Hire Notification to Manager</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resources" source="x_284759_human_res">aa1996d1db022300d1db560868961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources">aa1996d1db022300d1db560868961904</sys_scope>
+        <sys_update_name>sysevent_email_action_6632e355dbc22300d1db56086896193a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 12:56:02</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

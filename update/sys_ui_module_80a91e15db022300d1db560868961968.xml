@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="(HR) Human Resources">5178ded1db022300d1db560868961952</application>
+        <filter/>
+        <name>New Hires</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>true</path_relative_to_root>
+        <roles>x_284759_human_res.new_hire_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 13:05:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80a91e15db022300d1db560868961968</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Hires</sys_name>
+        <sys_package display_value="Human Resources" source="x_284759_human_res">aa1996d1db022300d1db560868961904</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources">aa1996d1db022300d1db560868961904</sys_scope>
+        <sys_update_name>sys_ui_module_80a91e15db022300d1db560868961968</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 14:15:45</sys_updated_on>
+        <table>x_284759_human_res_new_hire</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
